@@ -8,9 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        'xxs': '10px',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        brand: {
+          light: '#0093ff',
+          DEFAULT: '#0093ff', // El color por defecto
+          dark: '#0093ff',
+        },
+        normalText: '#767676',
+        primaryColor: '#0093ff',
       },
     },
   },
