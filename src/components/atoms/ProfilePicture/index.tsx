@@ -1,6 +1,6 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
-const ProfilePicture = ({ src, alt }: { src: any; alt: string }) => {
+const ProfilePicture = ({ src, alt }: { src: StaticImageData; alt: string }) => {
   return (
     <div className="w-36 h-36 bg-gray-200 rounded-full relative mb-6">
       <Image

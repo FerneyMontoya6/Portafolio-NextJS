@@ -7,7 +7,7 @@ const SideBarContext = createContext({
   togglePosition: () => {},
 });
 
-export const PositionProvider = ({ children }: {children: any}) => {
+export const PositionProvider = ({ children }: {children: React.ReactNode}) => {
   const [position, setSetPosition] = useState('-left-72');
 
   const togglePosition = () => {
