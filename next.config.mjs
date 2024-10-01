@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-// next.config.js
-module.exports = {
+const nextConfig = {
   output: 'export',
-  basePath: '/<despliegue-next>',
+  basePath: '/despliegue-next',
   trailingSlash: true,
-}
+};
 
-
+// next.config.mjs
 export default nextConfig;
+
