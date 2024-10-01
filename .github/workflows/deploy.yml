@@ -5,6 +5,9 @@ on:
     branches:
       - main  # O la rama principal que estés utilizando
 
+permissions:
+  contents: write  # Permitir la escritura en el contenido del repositorio
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
